@@ -1,0 +1,601 @@
+    1  ls -al
+    2  which git
+    3  apt-get install git
+    4  sudo apt-get install git
+    5  ls -al
+    6  which git
+    7  git config --global user.name "MarianoFuentes"
+    8  git config --global user.email "mf2018g@gmail.com"
+    9  ls -al
+   10  cat .gitconfig
+   11  [user]
+   12  name = MarianoFuentes
+   13  email = mf2018g@gmail.com
+   14  history
+   15  ssh-keygen -t rsa -C "mf2018g@gmail.com"
+   16  ls -al
+   17  ssh-keygen -t rsa -C "mf2018g@gmail.com"
+   18  cd .ssh
+   19  ls -al
+   20  ssh-keygen -t rsa -C "mf2018g@gmail.com"
+   21  cd .ssh
+   22  ssh-keygen -t rsa -C "mf2018g@gmail.com"
+   23  ls -al
+   24  ls -al .ssh
+   25  ssh-keygen -t rsa -C "mf2018g@gmail.com"
+   26  cd .ssh
+   27  ls -al
+   28  cat id_rsa KeyRsa.pub
+   29  cat "id_rsa KeyRsa.pub"
+   30  mv "id_rsa KeyRsa" id_rsa
+   31  mv "id_rsa KeyRsa.pub" id_rsa.pub
+   32  ls -al
+   33  cd
+   34  pwd
+   35  xclip -sel .ssh/id_rsa.pub
+   36  sudo apt-get install xclip
+   37  xclip -sel .ssh/id_rsa.pub
+   38  xclip -sel clip < ~/.ssh/id_rsa.pub
+   39  cat .ssh/id_rsa.pub
+   40  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYqaujSxt4HZS9+U0G8bN0hvU/wVirDvnAW0lw5YN1DNQ8t4VJ9NdAuL08tHJf4HlDVVv5L7vHd/5P3pOvImRhGHPmDEZT8owB/MH4ogen+osLlumid1HB9RgmfqE2rUuqiSysHACQkGIamZ2fTSyQAlWkAFZ5j46khb4OjWZHTq6WlU6DKoV1XESZ0ytCZj5ta/j3VTiKSIBsN6jfz6XhNcMy1iM0j5OLPoN0++0bHvJwyD0QeAm3WYzzLN+xgCRH8J8QqkkKm/txirmPqeBJ/xwFIXDfDKhftcOVpNWhRE07t9+kT6d/T3nPNVJbFYzvYmnslhMbvJa778lUR+Gt mf2018g@gmail.com
+   41  mario@mario-Virtual-Machine:~$ 
+   42  ssh -T git@github.com
+   43  mario@mario-Virtual-Machine:~$ ssh -T git@github.com
+   44  The authenticity of host 'github.com (192.30.253.112)' can't be established.
+   45  RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+   46  Are you sure you want to continue connecting (yes/no)? yes
+   47  Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+   48  Received disconnect from 192.30.253.112: 11: Bye Bye
+   49  ssh -T git@github.com
+   50  Hi MarianoFuentes! You've successfully authenticated, but GitHub does not provide shell access.
+   51  history -w MarianoFuentes.txt
+   52  ls -al
+   53  cat MarianoFuentes.txt
+   54  file MarianoFuentes.txt
+   55  ls -i
+   56  ls -a
+   57  ls help
+   58  ls /?
+   59  man ls
+   60  ls -l
+   61  ls -la
+   62  ls -lar
+   63  ls -t
+   64  ls -ltr
+   65  ls -la
+   66  ls -a
+   67  ls -ltr
+   68  ls -lt
+   69  ls -la
+   70  ls -a
+   71  ls -t
+   72  ls -lt
+   73  ls -r
+   74  ls -l
+   75  ls -la
+   76  ls -i
+   77  ls -t
+   78  ls -al
+   79  printenv
+   80  PATH
+   81  .PROFILE
+   82  .profile
+   83  echo NOMBRE
+   84  echo $NOMBRE
+   85  echo $HOME
+   86  cal
+   87  man cal
+   88  cal -y 1957
+   89  man cal > calendario.txt
+   90  sudo apt-get update
+   91  sudo apt-get upgrade
+   92  sudo apt-get install manpages-es manpages-es-extra
+   93  udo dpkg-reconfigure locales
+   94  sudo dpkg-reconfigure locales
+   95  man cal
+   96  sudo apt-get install manpages-es manpages-es-extra
+   97  sudo dpkg-reconfigure locales
+   98  man cal
+   99  udo dpkg-reconfigure locales
+  100  sudo dpkg-reconfigure locales
+  101  sudo apt-get install manpages-es manpages-es-extra
+  102  sudo dpkg-reconfigure locales
+  103  man install
+  104  man cal
+  105  man ncal
+  106  vi gordos
+  107  cat gordos
+  108  ./gordos $HOME
+  109  sudo ./gordos $HOME
+  110  ls gordos
+  111  ls -l gordos
+  112  chmod 777 gordos
+  113  ./gordos $HOME
+  114  chmod 765 gordos
+  115  ls -l gordos
+  116  chmod 766 gordos
+  117  ls -l gordos
+  118  chmod 764 gordos
+  119  ls -l gordos
+  120  ./gordos $HOME
+  121  vi gordos
+  122  cat gordos
+  123  vi gordos1
+  124  cat gordos1
+  125  chmod 764 gordos1
+  126  ./gordos1
+  127  vi gordos1
+  128  ./gordos1
+  129  ./gordos1 3
+  130  ./gordos1 1
+  131  ./gordos1 4
+  132  vi gordos1
+  133  ls -l
+  134  vi case1
+  135  cat case1
+  136  chmod 764 case1
+  137  .case1
+  138  .case1 s
+  139  .case1
+  140  case1
+  141  vi case1
+  142  .case1
+  143  ./caswe1
+  144  ./case1
+  145  vi case1
+  146  ./case1
+  147  vi  case1
+  148  ./case1
+  149  vi  case1
+  150  ./case1
+  151  vi  case1
+  152  ./case1
+  153  vi  case1
+  154  ./case1
+  155  vi  case1
+  156  ./case1
+  157  cal 1
+  158  cal 1 1
+  159  cal 1 6
+  160  cal 6 1
+  161  cal 6 2
+  162  cal 6 2018
+  163  vi  case1
+  164  ls -al
+  165  rm .case1*
+  166  ls -al
+  167  vi  case2
+  168  cat cae2
+  169  cat case2
+  170  vi  case2
+  171  chmod 764 case2
+  172  ./case2
+  173  echo RESPUESTA
+  174  ECHO $RESPUESTA
+  175  echo $RESPUESTA
+  176  vi  case2
+  177  ./case2
+  178  cal 1
+  179  cal 6
+  180  ./case2
+  181  vi  case2
+  182  ./case2
+  183  vi  case2
+  184  clear
+  185  gedit case2
+  186  ls -al
+  187  chmod 764 mcal
+  188  ls -al
+  189  ./mcal
+  190  chmod 764 mcalclear
+  191  clea
+  192  clear
+  193  ./mcal
+  194  date
+  195  man date
+  196  datgw
+  197  date MM
+  198  date MMddyy
+  199  man date
+  200  date -u MM
+  201  date -u 
+  202  man date
+  203  man date FORMAT %D
+  204  man date +FORMAT %D
+  205  DATE +"%Y"
+  206  DATE +"%y"
+  207  date +"%d%y%m"
+  208  date +"%d%mm%yyyy"
+  209  date +"%d%m%yy"
+  210  date +"%m"
+  211  clear
+  212  MES="date +"%m""
+  213  echo $MES
+  214  MES=`date +"%m"`
+  215  echo $MES
+  216  MES=`date +"%G"`
+  217  echo $MES
+  218  AN=`date +"%G"`
+  219  MES=`date +"%m"`
+  220  cal $mes
+  221  cal $AN
+  222  cal $MES $AN
+  223  CLEAR
+  224  clear
+  225  ./mcal
+  226  cal 1
+  227  cal 20
+  228  cal 6 18
+  229  cal 6 2018
+  230  ./mcal
+  231  chmod 764 mcal1
+  232  ./mcal1
+  233  ls -al
+  234  ./mcal1
+  235  echo $AN
+  236  echo $MES
+  237  ./mcal1
+  238  ./mcal1 -X
+  239  ./mcal1
+  240  $entrada
+  241  $ENTRADA
+  242  echo $ENTRADA
+  243  ./mcal1
+  244  echo $ENTRADA
+  245  ./mcal1
+  246  echo $RESPUESTA
+  247  echo $MES
+  248  echo $AN
+  249  ./mcal1
+  250  cal 6 2018
+  251  ./mcal1
+  252  echo $1
+  253  echo $2
+  254  ./mcal1
+  255  man read
+  256  read
+  257  man read
+  258  ./mcal1
+  259  CAL 2018
+  260  cal 2018
+  261  ./mcal1
+  262  clear
+  263  ./mcal1
+  264  chmod 764 mcal3
+  265  ./mcal3
+  266  chmod 764 bucle
+  267  ./bucle
+  268  clear
+  269  ./bucle
+  270  clear
+  271  find -type f
+  272  ls -al
+  273  clear
+  274  cat $fichero
+  275  find -type f
+  276  ./mcal3
+  277* ech
+  278  ./mcal3
+  279  [A
+  280  ./mcal3
+  281  a 3
+  282  ./mcal3
+  283  vi mcal3
+  284  ./mcal3
+  285  vi mcal3
+  286  ./mcal3
+  287  chmod 764 mcal6
+  288  ./mcal6
+  289  ./mcal 12
+  290  ./mcal6
+  291  13
+  292  ./mcal6
+  293  14
+  294  ./mcal6
+  295  15 
+  296  ./mcal6
+  297  ./mcal6 1
+  298  ./mcal6 1 2
+  299  ./mcal6 12 2018
+  300  ./mcal6 12
+  301  ./mcal6 1 1
+  302  clear
+  303  ./mcal6 1 1
+  304  clear
+  305  ./mcal6 2 2
+  306  ./mcal6 3 3
+  307  ./mcal6 4 4
+  308  ./mcal6 primero segundo
+  309  ./mcal6 A B
+  310  ./mcal6 1 1
+  311  ./mcal6 1 2018
+  312  ./mcal6 2018
+  313  ./mcal6 13
+  314  ./mcal6 12
+  315  ./mcal6 > Temp
+  316  ls -al
+  317  cat Temp
+  318  cal
+  319  cal|usr/lib
+  320  cal|usr/lib > /home/user/temporal
+  321  cal|/usr/lib > /home/user/temporal
+  322  /usr/lib<cal  > /home/user/temporal
+  323  cal > /home/user/temporal
+  324  cat Temp
+  325  ./mcal6 > Temp
+  326  ./mcal6 > Tem
+  327  ls -al
+  328  cat Tem
+  329  cal
+  330  cal 2018
+  331  ./mcal6 > Tem
+  332  cat Temp
+  333  rm Temp
+  334  ls -al
+  335  rm Tem
+  336  ls -al
+  337  ./mcal6 > Temp
+  338  ls -al
+  339  cat temp
+  340  cat Temp
+  341  ./mcal6 > Temp
+  342  ls -al
+  343  Cat Temp
+  344  cat Temp
+  345  ./mcal6
+  346  ./mcal6 > tEMP
+  347  ./mcal6 > Temp
+  348  clear
+  349  ./mcal6 > Temp
+  350  clear
+  351  ./mcal6
+  352  ./mcal6 1 1
+  353  ./mcal6
+  354  chmod 764 gordos2
+  355  .gondos2 $HOME
+  356  .gordos2 $HOME
+  357  .gordos2 /home
+  358* .gordos2 -n 8 
+  359  .gordos2 -n 5
+  360  .gordos2 -x 8
+  361* .
+  362  .gordos2 -n 8 $HOME
+  363  .gordos2 -n 8 /home $HOME
+  364  .gordos2 -n 5 /home $HOME
+  365  .gordos2 -n 5 /home
+  366  .gordos2 -n 3
+  367  .gordos2
+  368  ls -al
+  369  .GORDOS
+  370  .gordos2
+  371  ls $home
+  372  cat gordos1
+  373  .gordos1
+  374  .gordos1 1
+  375  .gordos1 1 1
+  376  .gordos2 1
+  377  .gordos2 5
+  378  .gordos2 -5
+  379  gordos2 x $HOME
+  380  gordos2 x 
+  381  bash -x gordos2 $HOME
+  382  .gondos2 $HOME
+  383  .gordos2 $HOME
+  384  bash -x gordos2 $HOME
+  385  bash -x gordos2 /home
+  386  bash -x gordos2 -n 8
+  387  bash -x gordos2 -x 8
+  388  bash -x gordos2 -n 5 /home
+  389  .gordos2 -n 5 /home
+  390  bash -x gordos2 -n 8
+  391  .gordos2 -n 5 /home
+  392  .gordos2 -n 8
+  393  ls /home
+  394  dir /home
+  395  .gordos2 /home
+  396  echo $1
+  397  echo 0
+  398  .gordos2 0
+  399  .gordos2 "1"
+  400  cat gordos2
+  401  cat gordos2 1
+  402  .gordos2 1
+  403  .gordos2 -x
+  404  -x 8
+  405  bash -x gordos2 -n 8
+  406  bash -x gordos2 -n b
+  407  bash -x gordos2 -n 10
+  408  bash -x gordos2 -n 6
+  409  .gordos2 -n 6
+  410  .gordos
+  411  .gordos2
+  412  bash -x gordos2 -n b
+  413  ./gordos2 -n 6
+  414  cat gordos2
+  415  ./gordos2 $HOME
+  416  ./gordos2 /home
+  417  ./gordos2 -n 8
+  418  ./gordos2 -n b
+  419  ./gordos2 -n 5
+  420  ./gordos2 -x 8
+  421  ./gordos2 -n 100
+  422  ./gordos2 -n 8 $HOME
+  423  ./gordos2 -n 5 /home
+  424  ./gordos2 kk
+  425* 
+  426  ./gordos2 -n 5 /home
+  427  ./gordos2 -n 5 1
+  428  ./gordos2 k k k
+  429  ./gordos2 dir
+  430  ./gordos2 CA
+  431  ./gordos2
+  432  ./gordos2 1
+  433  chmod 764 VAIABLES
+  434  LS -AL
+  435  ls -al
+  436  chmod 764 VARIABLES
+  437  ./VARIABLES A B C D
+  438  ./VARIABLES
+  439  ./VARIABLES 1
+  440  ./VARIABLES 1 2 3 
+  441  ./VARIABLES 1 2
+  442  ./VARIABLES 1
+  443  ./VARIABLES 9
+  444  ./VARIABLES 13
+  445  ./VARIABLES 11
+  446  ./VARIABLES 12
+  447* ./VARIABLES 14[A
+  448  ./VARIABLES 1
+  449  ./VARIABLES 2
+  450  ./VARIABLES 1
+  451  ./VARIABLES 1 3
+  452  ./VARIABLES 1
+  453  ./VARIABLES
+  454  ./VARIABLES 12
+  455  ./VARIABLES 13
+  456  ./VARIABLES 1 1
+  457  ./VARIABLES 1 12
+  458  ./VARIABLES 12 2018
+  459  ./VARIABLES 2018
+  460  ./VARIABLES 0
+  461  ./VARIABLES 1 0
+  462  ./VARIABLES ene
+  463  cal ene
+  464  cal enero
+  465  cal jan
+  466  cal 1
+  467  cal janvier
+  468  cal jan 2018
+  469  cal janv 2018
+  470  cal janvi 2018
+  471  cal janvier 2018
+  472  cal e 2018
+  473  cal ene 2018
+  474  cal enero 2018
+  475  cal apr 2018
+  476  cal abr 2018
+  477  ./VARIABLES 2018
+  478  ./VARIABLES 2
+  479  chmod 764 pruebafor
+  480  pruebafor
+  481  ./pruebafor
+  482  man for
+  483  man for /all
+  484  ./pruebafor
+  485  man cal
+  486  cal -A 1
+  487  cal -b 1
+  488  cal -B 1
+  489  cal -h 1
+  490  cal -j 1
+  491  ./pruebafor 1
+  492  date %A
+  493  date
+  494  date %a
+  495  date %b
+  496  man date
+  497  date -d %A
+  498  date +%a
+  499  date +1%a
+  500  date +%a
+  501  date +%A
+  502  ./pruebafor
+  503  date +%A --date "3 day"
+  504  date +%B --date "3 day"
+  505  date +%B --date "3 MM"
+  506  date +%B --date "3 nonth"
+  507  date +%B --date "3 nonths"
+  508  date +%B
+  509  date +%B --date "3 months"
+  510  ./pruebafor
+  511  chmod 764 array
+  512  ./array
+  513  clear
+  514  ./array
+  515  ./VARIABLES 1 0
+  516  ./VARIABLES 1 1
+  517  ./VARIABLES 13 2018
+  518  ./VARIABLES c 2018
+  519  ./VARIABLES ene 2018
+  520  ./VARIABLES feb 1
+  521  ./VARIABLES 13 2018
+  522  ./VARIABLES 1 1
+  523  ./array
+  524  man printf
+  525  ./array
+  526  chmod 764 jorge
+  527  ./jorge 1
+  528  ./jorge
+  529  ls -al
+  530  jorge
+  531  -
+  532  ./jorge
+  533  ls -al jorge
+  534  ./jorge
+  535  ./jorge ene
+  536  ./pruebafor
+  537  ./pruebafor ene
+  538  ./pruebafor -h
+  539  ./pruebafor ene 2010
+  540  ./pruebafor ene
+  541  ./pruebafor
+  542  ./pruebafor jan
+  543  ./pruebafor ene
+  544  ./pruebafor feb
+  545  ./pruebafor feb 2015
+  546  ./pruebafor 1
+  547  ./pruebafor 12
+  548  ./pruebafor 2
+  549  ./pruebafor 3
+  550  ./pruebafor 3 299
+  551  ./pruebafor 43 299
+  552  ./pruebafor 3 299
+  553  ./pruebafor 43 299
+  554  ./pruebafor 4 299
+  555  ./pruebafor 5 299
+  556  ./pruebafor 6 299
+  557  ./pruebafor 7 299
+  558  ./pruebafor 87 299
+  559  ./pruebafor 8 299
+  560  ./pruebafor 9 299
+  561  ./pruebafor 10 299
+  562  ./pruebafor 11 299
+  563  ./pruebafor 12 299
+  564  ./pruebafor 0 299
+  565  mcal -h
+  566  ./mcal -h
+  567  ./mcal -help
+  568  ./mcal --help
+  569  ./pruebafor --help
+  570  ./pruebafor --help >TEMP2
+  571  ls -al *T
+  572  ls -al 
+  573  cat TEMP2
+  574  ./mcal -h
+  575  clear
+  576  ./mcal -h
+  577  mkdir MOOC
+  578  ls
+  579  cd MOOC
+  580  ls
+  581  git clone https://github.com/MarianoFuentes/MarianoFuentes.github.io.git
+  582  ls
+  583  cd MarianoFuentes.github.io/
+  584  ls
+  585  cat README.md 
+  586  touch index.html
+  587  ls
+  588  sublime index.html
+  589  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+  590  sudo apt-get update
+  591  sudo apt-get install sublime-text-installer
+  592  subl index.html
+  593  cat index.html
+  594  firefox index-html
+  595  firefox index.html
+  596  git add index.html
+  597  git commit -m "Primera version de mi pagina"
+  598  git push origin master
+  599  history
+  600  history > HISTORICO MODULO 9
+  601  history > HISTORICOMODULO9
